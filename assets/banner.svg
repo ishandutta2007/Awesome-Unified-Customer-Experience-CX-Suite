@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; border-radius:18px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; overflow:hidden;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="accent-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="glow-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
+
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Dynamic floating particles and background flows */
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(60px, -30px) scale(1.15); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-50px, 40px) scale(1.2); }
+    }
+    @keyframes dashCycle {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pulsePill {
+      0%, 100% { opacity: 0.85; transform: translateY(0); }
+      50% { opacity: 1; transform: translateY(-4px); }
+    }
+
+    .orb-1 { animation: floatOrb1 10s ease-in-out infinite; transform-origin: center; }
+    .orb-2 { animation: floatOrb2 12s ease-in-out infinite; transform-origin: center; }
+    .pulse-flow { stroke-dasharray: 8 12; animation: dashCycle 20s linear infinite; }
+    .pill-anim-1 { animation: pulsePill 4s ease-in-out infinite; }
+    .pill-anim-2 { animation: pulsePill 4.5s ease-in-out infinite 0.5s; }
+    .pill-anim-3 { animation: pulsePill 5s ease-in-out infinite 1s; }
+    .pill-anim-4 { animation: pulsePill 4.2s ease-in-out infinite 1.5s; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" />
+
+  <!-- Animated Background Glow Orbs -->
+  <g filter="url(#glow-blur)" opacity="0.45">
+    <circle class="orb-1" cx="200" cy="80" r="140" fill="#38bdf8" />
+    <circle class="orb-2" cx="1020" cy="280" r="160" fill="#a855f7" />
+    <circle class="orb-1" cx="900" cy="70" r="120" fill="#06b6d4" />
+    <circle class="orb-2" cx="120" cy="300" r="130" fill="#6366f1" />
+  </g>
+
+  <!-- Subtle Ambient Tech Grid -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Dynamic Customer Journey Connected Flow Lines (In Background) -->
+  <g fill="none" opacity="0.35">
+    <path class="pulse-flow" d="M -50 80 Q 250 180 500 90 T 950 140 T 1250 80" stroke="#38bdf8" stroke-width="2.5" />
+    <path class="pulse-flow" d="M -50 300 Q 280 200 620 280 T 1000 220 T 1250 310" stroke="#c084fc" stroke-width="2" />
+  </g>
+
+  <!-- Foreground Title Card / Content Area (Guarantees Foreground Dominance) -->
+  <g filter="url(#soft-shadow)">
+    <!-- Badge Pill Above Title -->
+    <rect x="425" y="42" width="350" height="30" rx="15" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="442" cy="57" r="4.5" fill="#38bdf8" />
+    <text x="456" y="62" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="1.5">ENTERPRISE CX &amp; OPEN-SOURCE</text>
+  </g>
+
+  <!-- Main Title (Gradient Fill, Crisp & Dominant) -->
+  <text x="600" y="132" text-anchor="middle" font-size="44" font-weight="800" fill="url(#primary-glow)" letter-spacing="-0.5" filter="url(#soft-shadow)">
+    Awesome Unified CX Suite
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="172" text-anchor="middle" font-size="18" font-weight="400" fill="#cbd5e1" letter-spacing="0.2">
+    Customer Experience Management • Omnichannel Desks • Real-Time CDPs • Journey Analytics
+  </text>
+
+  <!-- Foreground Floating Capability Badges / Pills (Dynamic floating animation, positioned at bottom) -->
+  <g filter="url(#soft-shadow)">
+    <!-- Pill 1: Customer 360 & CDP -->
+    <g class="pill-anim-1" transform="translate(110, 240)">
+      <rect width="210" height="52" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="28" cy="26" r="10" fill="url(#accent-cyan)" />
+      <text x="28" y="30" text-anchor="middle" font-size="12" fill="#ffffff">👥</text>
+      <text x="50" y="24" fill="#f8fafc" font-size="13" font-weight="700">Customer 360</text>
+      <text x="50" y="39" fill="#94a3b8" font-size="11">Unified CDP &amp; Profiles</text>
+    </g>
+
+    <!-- Pill 2: Omnichannel Support -->
+    <g class="pill-anim-2" transform="translate(350, 240)">
+      <rect width="230" height="52" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#818cf8" stroke-width="1.2"/>
+      <circle cx="28" cy="26" r="10" fill="url(#accent-purple)" />
+      <text x="28" y="30" text-anchor="middle" font-size="12" fill="#ffffff">💬</text>
+      <text x="50" y="24" fill="#f8fafc" font-size="13" font-weight="700">Omnichannel Support</text>
+      <text x="50" y="39" fill="#94a3b8" font-size="11">Live Chat, Voice, Tickets</text>
+    </g>
+
+    <!-- Pill 3: Journey & Funnels -->
+    <g class="pill-anim-3" transform="translate(610, 240)">
+      <rect width="230" height="52" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#a855f7" stroke-width="1.2"/>
+      <circle cx="28" cy="26" r="10" fill="url(#accent-purple)" />
+      <text x="28" y="30" text-anchor="middle" font-size="12" fill="#ffffff">📈</text>
+      <text x="50" y="24" fill="#f8fafc" font-size="13" font-weight="700">Journey Analytics</text>
+      <text x="50" y="39" fill="#94a3b8" font-size="11">Session Replay &amp; Funnels</text>
+    </g>
+
+    <!-- Pill 4: Voice of Customer -->
+    <g class="pill-anim-4" transform="translate(870, 240)">
+      <rect width="220" height="52" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#10b981" stroke-width="1.2"/>
+      <circle cx="28" cy="26" r="10" fill="url(#accent-emerald)" />
+      <text x="28" y="30" text-anchor="middle" font-size="12" fill="#ffffff">⭐</text>
+      <text x="50" y="24" fill="#f8fafc" font-size="13" font-weight="700">Voice of Customer</text>
+      <text x="50" y="39" fill="#94a3b8" font-size="11">Surveys &amp; AI Insights</text>
+    </g>
+  </g>
+</svg>
