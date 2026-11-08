@@ -1,170 +1,123 @@
-# Awesome-Unified-Customer-Experience-CX-Suite
-
 # Awesome Unified Customer Experience (CX) Suite
 
-> A curated list of top Unified Customer Experience (CX) Suite platforms — both SaaS/Hosted commercial solutions and open-source alternatives for connecting customer data, feedback, support, and engagement across the entire journey.  
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+> A curated list of top Unified Customer Experience (CX) Suite platforms and frameworks — both SaaS / Hosted commercial solutions and open-source alternatives for connecting customer data, feedback, omnichannel support, journey analytics, and engagement across the entire user lifecycle.
+
+🌟 **Star this repo if you find it useful!** 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Salesforce Customer 360](#salesforce-customer-360)
-  - [Adobe Experience Cloud](#adobe-experience-cloud)
-  - [Oracle CX](#oracle-cx)
-  - [SAP Customer Experience](#sap-customer-experience)
-  - [Zoho CRM Plus](#zoho-crm-plus)
-  - [Zendesk Suite](#zendesk-suite)
-  - [Freshworks Customer Service Suite](#freshworks-customer-service-suite)
-  - [Sprinklr](#sprinklr)
-  - [Qualtrics XM](#qualtrics-xm)
-  - [Pegasystems](#pegasystems)
 - [Open-Source Software](#-open-source-software)
-  - [Formbricks](#formbricks)
-  - [Tracardi](#tracardi)
-  - [Chatwoot](#chatwoot)
-  - [FreeScout](#freescout)
-  - [Znuny](#znuny)
-  - [Retentioneering](#retentioneering)
-  - [OpenPanel](#openpanel)
-  - [CX Impact](#cx-impact)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global Customer Experience (CX) and Customer Experience Management (CEM) software market is estimated at **$14 billion to $18 billion** (scaling past **$25 billion** when including broader experience ecosystems and services), expanding at a CAGR of 11–15% driven by generative AI agents, real-time analytics, and customer data platform (CDP) convergence. The sector is **moderately concentrated at the top**—where enterprise suites like Salesforce, Oracle, SAP, and Adobe command the core market with high switching barriers—yet **fragmented across specialized niches** like feedback management (VoC), open-source product analytics, omnichannel ticketing desks, and AI journey mapping.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Unified Customer Experience (CX) Suite platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Unified Customer Experience (CX) Suite platforms sorted by company scale (market capitalization or valuation, descending).
 
-### Salesforce Customer 360
-**Type:** Enterprise CRM and CX platform with Agentforce AI  
-Salesforce Customer 360 connects sales, service, marketing, commerce, and custom applications on a single platform. The ISG 2026 Buyers Guide rates Salesforce as Exemplary with an A- grade (84.2% performance), praising its metadata-driven architecture and AI capabilities through Einstein and Agentforce . Pricing starts with a Free Suite for basic contact and opportunity management, scaling to enterprise tiers at £440/seat/month for advanced AI features . **Trade-off:** Cost transparency across its broad licensing model is a noted challenge, and platform complexity increases significantly with customization.
-
-### Adobe Experience Cloud
-**Type:** Digital experience and marketing platform  
-Adobe Experience Cloud provides a suite of applications for customer data management (Real-Time CDP), content management, personalization, and analytics. Suited for enterprises wanting deep integration between marketing content, customer data, and campaign execution. Pricing is quote-based and typically targets large organizations with dedicated marketing technology teams.
-
-### Oracle CX
-**Type:** Cloud CX suite (Fusion Cloud CX)  
-Oracle CX (Sales, Service, Marketing) is part of Oracle's Fusion Cloud applications. The ISG Buyers Guide rates Oracle as Exemplary with an A- grade, placing it among the top leaders alongside Salesforce and HubSpot . Deeply integrated with Oracle ERP and HCM, making it a natural choice for Oracle-centric enterprises requiring tight back-office integration.
-
-### SAP Customer Experience
-**Type:** Enterprise CX suite  
-SAP Customer Experience (including SAP Sales Cloud and SAP Service Cloud) integrates with SAP S/4HANA and the broader SAP ecosystem. The ISG Buyers Guide rates SAP as B+ (14.0% performance), indicating solid capability for SAP-standardized organizations . Suited for large enterprises requiring ERP-CRM integration with complex supply chain and manufacturing workflows.
-
-### Zoho CRM Plus
-**Type:** Unified customer experience platform within Zoho ecosystem  
-Zoho CRM Plus bundles CRM with email marketing, surveys, visitor tracking, social media marketing, project management, and advanced analytics. Zoho CRM itself offers a free edition for 3 users, with paid tiers adding scoring rules, forecasting, Blueprint process design, and anomaly detection. The ISG Buyers Guide rates Zoho CRM as B++ (15.7% performance), placing it above Microsoft and SAP in overall scoring . Strong value for SMBs wanting breadth without multiple vendor relationships.
-
-### Zendesk Suite
-**Type:** Customer service and engagement platform  
-Zendesk Suite combines ticketing, messaging, help center, voice, and analytics for customer support teams. Known for its mature support ecosystem and extensive integrations. Pricing is per-agent with tiered plans, and AI features (advanced bots, agent assistance) are typically add-ons.
-
-### Freshworks Customer Service Suite
-**Type:** Unified customer service and engagement  
-Freshworks combines Freshdesk (ticketing), Freshchat (messaging), and Freshsales (CRM) into an integrated suite. The platform emphasizes ease of use and AI assistance (Freddy AI) for agent productivity and self-service. Positioned as an accessible alternative to enterprise suites for mid-market organizations.
-
-### Sprinklr
-**Type:** Unified customer experience management (Unified-CXM)  
-Sprinklr provides a unified platform for social media management, customer care, marketing, and research across digital channels. Suited for large enterprises managing high-volume social and messaging interactions across multiple brands and regions.
-
-### Qualtrics XM
-**Type:** Experience management platform  
-Qualtrics XM covers customer experience (CX), employee experience (EX), product experience, and brand experience. Provides survey research, analytics, and action planning across the organization. Often compared with Formbricks, which positions itself as an open-source Qualtrics alternative .
-
-### Pegasystems
-**Type:** CRM and business process automation with AI  
-Pegasystems provides CRM applications and business process management (BPM) with AI-powered decisioning and automation. Suited for complex enterprise workflows requiring deep process orchestration and real-time decision management.
+| Company / Platform | Market Cap / Valuation / Scale | Starting Tier Price | Free Tier Limits / Free Trial Policy | CX Focus |
+|---|---|---|---|---|
+| **[Oracle CX](https://www.oracle.com/cx/)** | ~$350B Market Cap (Oracle Corp) | $65 / user / month (Sales Cloud Professional, billed annually) | 30-day free trial (includes $300 cloud credits; access to core enterprise service apps) | Enterprise cloud CX suite combining Sales, Service, and Marketing with deep ERP/HCM back-office integration. |
+| **[SAP Customer Experience](https://www.sap.com/products/crm.html)** | ~$270B Market Cap (SAP SE) | $58 / user / month (Service Cloud baseline, billed annually) | 30-day free trial on SAP Cloud ALM / CX demo environments (preconfigured guided scenarios) | End-to-end enterprise CX (SAP Sales & Service Cloud V2) natively connected to SAP S/4HANA workflows. |
+| **[Salesforce Customer 360](https://www.salesforce.com/products/)** | ~$180B Market Cap (Salesforce Inc.) | $25 / user / month (Starter Suite, billed annually) | 30-day free trial (full access to Starter Suite features; no credit card required) | Full-lifecycle enterprise CRM, Agentforce AI, Service Cloud, and Data Cloud unified customer 360 view. |
+| **[Adobe Experience Cloud](https://business.adobe.com/)** | ~$100B Market Cap (Adobe Inc.) | ~$2,083 / month (~$25,000 / year base entry tier for AEM Assets Prime) | 30-day enterprise sandbox trial (available via sales/partner program; custom sandbox limits) | Digital experience platform combining real-time CDP, headless content delivery (AEM), and customer analytics. |
+| **[Qualtrics XM](https://www.qualtrics.com/)** | $12.5B Valuation (Acquired by Silver Lake / CPP) | $420 / month ($5,040 / year billed annually for Strategic Research) | **Free Plan forever:** 30 questions/survey, 500 total responses/survey, up to 3 active surveys (or 30-day Pro trial up to 1,000 responses) | Enterprise experience management covering Customer Experience (CX), Employee Experience (EX), and market research. |
+| **[Zendesk Suite](https://www.zendesk.com/)** | $10.2B Valuation (Acquired by Hellman & Friedman) | $19 / agent / month (Support Team) / $55 / agent / month (Suite Team) | 14-day free trial (full access to Zendesk Suite Professional; no credit card required; 14-day extension eligible) | Omnichannel customer service desk (ticketing, live messaging, voice, help center, and AI agent routing). |
+| **[Pegasystems](https://www.pega.com/)** | ~$5.6B Market Cap (NASDAQ: PEGA) | ~$150 / user / month (or case-based tiers starting at ~$0.45/case) | 30-day free trial (Pega Community Edition sandbox with full low-code app studio & workflow access) | Enterprise CRM and workflow automation engine powered by real-time AI decisioning and case management. |
+| **[Freshworks Customer Service Suite](https://www.freshworks.com/)** | ~$3.5B Market Cap (NASDAQ: FRSH) | $19 / agent / month (Freshdesk Growth) / $29 / agent / month (Freshdesk Omni) | **Free Plan:** up to 2 agents on 6-month Free Program (or 14-day free trial of Pro omnichannel suite, no credit card) | Integrated customer service suite (Freshdesk ticketing, Freshchat omnichannel messaging, and Freddy AI). |
+| **[Sprinklr](https://www.sprinklr.com/)** | ~$1.6B Market Cap (NYSE: CXM) | ~$4,166 / month (~$50,000 / year enterprise entry contract) | Discontinued self-serve free trials (14 to 30-day custom enterprise POC pilots available upon sales approval) | Unified Customer Experience Management (Unified-CXM) covering social care, digital engagement, and VoC research. |
+| **[Zoho CRM Plus](https://www.zoho.com/crm/crmplus/)** | ~$1.5B Annual Revenue (~$12B+ Valuation, Bootstrapped) | $57 / user / month (billed annually) or $69 / month | 30-day free trial (up to 10 users with full suite access across CRM, Desk, Campaigns, and Chat; no credit card) | All-in-one customer experience platform bundling CRM, helpdesk, marketing campaigns, visitor chat, and BI analytics. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven CX tools. The open-source ecosystem **splits** across feedback/survey platforms, customer data platforms, support inboxes, behavioral analytics, and journey mapping tools rather than unified suites.
+Self-hosted, community-driven CX solutions and developer platforms. Repositories are sorted by GitHub Star Count (descending) with clickable real-time star badges linking directly to their stargazers page.
 
-### Formbricks
-**Stack:** TypeScript / Next.js / React / PostgreSQL | **License:** AGPL-3.0 (core)  
-Formbricks is the most direct open-source alternative to Qualtrics, providing a privacy-first experience management platform for gathering feedback at every point in the user journey [citation:9]. Features include in-app, website, link, and email surveys with a no-code editor; best-practice templates; targeting to specific user groups without code changes; shareable link surveys; team collaboration; and integrations with Slack, Notion, Zapier, and n8n . The Formbricks Hub (Apache-2.0) is a Go backend for feedback unification and AI enrichment, creating embeddings and analyzing sentiment at scale [citation:1]. Self-hosting via Docker with AGPLv3 licensing .  
-**Best for:** Teams wanting a self-hosted Qualtrics alternative for surveys and feedback with privacy-first design and a growing AI enrichment layer.
-
-### Tracardi
-**Stack:** Python / Docker | **License:** MIT with Common Clause  
-Tracardi is an API-first, composable open-source Customer Data Platform (CDP) engine, positioned as an alternative to Segment and RudderStack [citation:8]. Features include collecting and aggregating customer data from multiple sources in real time, modeling data with rules, unifying profiles from different sources, personalizing user experience with frontend apps, and integrating internal systems. Designed for building a custom CDP on existing infrastructure. **Note:** MIT with Common Clause licensing restricts certain commercial uses .  
-**Best for:** Teams wanting to build their own CDP foundation with full control over customer data collection, unification, and activation.
-
-### Chatwoot
-**Stack:** Ruby on Rails / Vue / PostgreSQL | **License:** MIT (Community Edition)  
-Chatwoot is an open-source omnichannel support desk covering email, website live chat, WhatsApp, Facebook Messenger, Instagram, SMS, and custom channels in a single queue [citation:6]. The Community Edition is MIT-licensed with assignments, private notes, collision detection, canned responses, and labels. Enterprise features like SSO and audit logs require a paid tier. Positioned as an Intercom/Zendesk alternative for teams wanting a single support inbox.  
-**Best for:** Teams needing a unified support inbox across multiple channels with MIT licensing and Docker-friendly deployment.
-
-### FreeScout
-**Stack:** PHP / Laravel / MySQL | **License:** AGPL-3.0  
-FreeScout is a self-hosted help desk and shared inbox explicitly positioned as a free Zendesk and Help Scout alternative [citation:13]. Features include omnichannel centralization (email, WhatsApp, Telegram, Facebook, Slack, Live Chat), unlimited agents and mailboxes, collision detection, internal notes, auto-replies, and integrations via API. Deployable on shared hosting with PHP/MySQL. Some advanced modules are paid add-ons.  
-**Best for:** Technical teams wanting a free-forever shared inbox with help desk features on minimal infrastructure.
-
-### Znuny
-**Stack:** Perl / MySQL/PostgreSQL | **License:** GPL-3.0  
-Znuny is an open-source ticketing and ITSM platform forked from OTRS, offering help desk and product support workflows with SLAs, customer portal, FAQ/knowledgebase, and third-party integrations [citation:4]. Free and fully customizable, with cloud or on-premises deployment. Vendor support starts at €3,900/year. Production servers need at least 8 GB RAM (16 GB recommended) .  
-**Best for:** IT and service teams wanting an OTRS-style service desk with SLAs and knowledge base without license fees.
-
-### Retentioneering
-**Stack:** Python (DuckDB) | **License:** Open Source (per project)  
-Retentioneering is an open-source Python library for user behavior analysis and customer journey visualization [citation:5]. It reconstructs real user paths through a product — including detours, loops, and dead ends — with interactive Transition Graphs, Step Sankey diagrams, and Step Matrix views. Features include funnel analysis beyond predefined steps, group comparison (A/B arms, channels), and an MCP server for LLM agents to explore eventstreams in plain language. Runs in Jupyter, VS Code, or Colab with exportable interactive HTML reports.  
-**Best for:** Product analysts and UX researchers wanting to understand *why* metrics moved by visualizing actual user behavior paths rather than aggregate dashboards.
-
-### OpenPanel
-**Stack:** (Check repository) | **License:** AGPL-3.0  
-OpenPanel is an open-source product analytics platform positioned as a Mixpanel alternative [citation:15]. Features include cookieless tracking by default, funnels, cohorts, session replay (no session cap), and self-hosting with identical features to the cloud version. Cloud pricing is flat-tiered ($2.50–$90/month) rather than event-volume-based, and self-hosting is free with no event caps.  
-**Best for:** Teams wanting Mixpanel-style product analytics with flat pricing or free self-hosting, focused on analytics rather than broad CX suite functionality.
-
-### CX Impact
-**Stack:** Node.js / AI Agent Skill | **License:** Open Source (per project)  
-CX Impact is an open-source tool for AI agents that turns documents, process descriptions, and numbers into visual maps of customer journeys, service blueprints, process maps, and sales funnels [citation:11]. Features include AS IS / TO BE comparison, source preservation, and standalone HTML output that opens without a server or account. Installed as a skill for Codex, Claude Code, and other AI agents.  
-**Best for:** Product managers and analysts wanting AI-assisted customer journey mapping and funnel visualization without a dedicated SaaS platform.
+| Project & Repository | Stars | Stack | License | CX Focus & Capabilities |
+|---|---|---|---|---|
+| **[Twenty](https://twenty.com/)**<br>[`twentyhq/twenty`](https://github.com/twentyhq/twenty) | [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | TypeScript / NestJS / React | AGPL-3.0 | Modern open-source CRM alternative to Salesforce, built with full data sovereignty, extensible workflows, and AI companion tools. |
+| **[PostHog](https://posthog.com/)**<br>[`PostHog/posthog`](https://github.com/PostHog/posthog) | [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | Python / TypeScript / ClickHouse | MIT (Core) | All-in-one product analytics and CX suite: session replay, customer funnel analysis, feature flags, user surveys, and heatmap tracking. |
+| **[Novu](https://novu.co/)**<br>[`novuhq/novu`](https://github.com/novuhq/novu) | [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | TypeScript / React / Node.js | MIT | Open-source notification infrastructure and customer communication engine across in-app, push, email, SMS, and chat. |
+| **[Chatwoot](https://www.chatwoot.com/)**<br>[`chatwoot/chatwoot`](https://github.com/chatwoot/chatwoot) | [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails / Vue / PostgreSQL | MIT | Omnichannel customer communication platform combining live chat, WhatsApp, email, Facebook, Twitter, and SMS in a unified agent inbox. |
+| **[Plausible Analytics](https://plausible.io/)**<br>[`plausible/analytics`](https://github.com/plausible/analytics) | [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | Elixir / ClickHouse / Tailwind | AGPL-3.0 | Privacy-first, lightweight, cookie-free web and customer journey analytics platform offering complete data ownership. |
+| **[Formbricks](https://formbricks.com/)**<br>[`formbricks/formbricks`](https://github.com/formbricks/formbricks) | [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Privacy-first Experience Management (XM) platform and Qualtrics alternative for micro-surveys, customer feedback, and user retention tracking. |
+| **[OpenReplay](https://openreplay.com/)**<br>[`openreplay/openreplay`](https://github.com/openreplay/openreplay) | [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | Go / TypeScript / Python | El v2 | Developer-friendly session replay, cobrowsing, and product experience debugging suite you can self-host securely. |
+| **[Mautic](https://www.mautic.org/)**<br>[`mautic/mautic`](https://github.com/mautic/mautic) | [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | PHP / Symfony / MySQL | GPL-3.0 | Open-source marketing automation platform for lead nurturing, multi-channel customer campaigns, email marketing, and journey triggers. |
+| **[OpenPanel](https://openpanel.dev/)**<br>[`Openpanel-dev/openpanel`](https://github.com/Openpanel-dev/openpanel) | [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers) | TypeScript / Next.js / ClickHouse | AGPL-3.0 | Modern product analytics platform and open Mixpanel alternative featuring uncapped session replay, funnel analysis, and cookieless tracking. |
+| **[SuiteCRM](https://suitecrm.com/)**<br>[`SuiteCRM/SuiteCRM`](https://github.com/SuiteCRM/SuiteCRM) | [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers) | PHP / Symfony / MySQL / MariaDB | AGPL-3.0 | Enterprise-grade open-source CRM platform providing sales automation, customer service ticketing, and campaign management. |
+| **[FreeScout](https://freescout.net/)**<br>[`freescout-help-desk/freescout`](https://github.com/freescout-help-desk/freescout) | [![GitHub stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers) | PHP / Laravel / MySQL | AGPL-3.0 | Super-lightweight shared inbox and helpdesk alternative to Zendesk and Help Scout with no per-user fees or mailbox limits. |
+| **[RudderStack Server](https://www.rudderstack.com/)**<br>[`rudderlabs/rudder-server`](https://github.com/rudderlabs/rudder-server) | [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | Go / Node.js | SSPL-1.0 | Customer Data Platform (CDP) and event-streaming engine for collecting, transforming, and routing customer event streams to your data warehouse. |
+| **[erxes](https://erxes.io/)**<br>[`erxes/erxes`](https://github.com/erxes/erxes) | [![GitHub stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers) | TypeScript / Node.js / MongoDB | AGPL-3.0 | Open-source Experience Operating System (XOS) unifying marketing, sales pipelines, team communications, and helpdesk ticketing. |
+| **[Chaskiq](https://chaskiq.io/)**<br>[`chaskiq/chaskiq`](https://github.com/chaskiq/chaskiq) | [![GitHub stars](https://img.shields.io/github/stars/chaskiq/chaskiq?style=social&color=white)](https://github.com/chaskiq/chaskiq/stargazers) | Ruby on Rails / React | LGPL-3.0 | Conversational marketing and support platform alternative to Intercom and Drift, featuring live chat widgets, bot triggers, and newsletters. |
+| **[Retentioneering](https://retentioneering.com/)**<br>[`retentioneering/retentioneering-tools`](https://github.com/retentioneering/retentioneering-tools) | [![GitHub stars](https://img.shields.io/github/stars/retentioneering/retentioneering-tools?style=social&color=white)](https://github.com/retentioneering/retentioneering-tools/stargazers) | Python / DuckDB / Jupyter | Open Source | User behavioral analysis framework visualizing customer journey transition graphs, step Sankey diagrams, and trajectory exploration. |
+| **[Tracardi](https://www.tracardi.com/)**<br>[`Tracardi/tracardi`](https://github.com/Tracardi/tracardi) | [![GitHub stars](https://img.shields.io/github/stars/Tracardi/tracardi?style=social&color=white)](https://github.com/Tracardi/tracardi/stargazers) | Python / Docker / Elasticsearch | MIT + Clause | Composable Customer Data Platform (CDP) for collecting, unifying, and activating real-time user profiles across internal applications. |
+| **[Znuny](https://www.znuny.org/)**<br>[`znuny/Znuny`](https://github.com/znuny/Znuny) | [![GitHub stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers) | Perl / JavaScript / PostgreSQL | GPL-3.0 | Service management desk and ticketing software (forked from OTRS) supporting custom SLAs, customer self-service portals, and ITSM. |
+| **[CX Impact](https://github.com/shelasmax/cx-impact)**<br>[`shelasmax/cx-impact`](https://github.com/shelasmax/cx-impact) | [![GitHub stars](https://img.shields.io/github/stars/shelasmax/cx-impact?style=social&color=white)](https://github.com/shelasmax/cx-impact/stargazers) | Node.js / AI Agent Skill | Open Source | AI agent skill that translates process text and event data into customer journey maps, service blueprints, and sales funnels. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | CX Focus | Self-Hosted | Best For |
-|----------|---------|-------|----------|-------------|----------|
-| **Salesforce** | Proprietary | Cloud | Full suite | ❌ | Enterprise CRM + CX |
-| **Adobe Experience Cloud** | Proprietary | Cloud | Marketing + data | ❌ | Digital experience enterprises |
-| **Oracle CX** | Proprietary | Cloud | Full suite | ❌ | Oracle-centric enterprises |
-| **SAP CX** | Proprietary | Cloud | Full suite | ❌ | SAP S/4HANA integration |
-| **Zoho CRM Plus** | Proprietary | Cloud | CRM + marketing + surveys | ❌ | SMB breadth at flat price |
-| **Zendesk Suite** | Proprietary | Cloud | Support + engagement | ❌ | Mature support ecosystem |
-| **Qualtrics XM** | Proprietary | Cloud | Experience management | ❌ | Enterprise XM research |
-| **Formbricks** | AGPL-3.0 | TypeScript/Next.js | Surveys + feedback | ✅ | Qualtrics alternative |
-| **Tracardi** | MIT + Clause | Python/Docker | Customer data platform | ✅ | Custom CDP foundation |
-| **Chatwoot** | MIT | Ruby/PostgreSQL | Omnichannel support | ✅ | Unified support inbox |
-| **FreeScout** | AGPL-3.0 | PHP/MySQL | Shared inbox + help desk | ✅ | Free-forever shared mailbox |
-| **Znuny** | GPL-3.0 | Perl | Ticketing + ITSM | ✅ | OTRS-style service desk |
-| **Retentioneering** | Open Source | Python/DuckDB | Behavioral journey analysis | ✅ | Why metrics moved |
-| **OpenPanel** | AGPL-3.0 | (Check) | Product analytics | ✅ | Mixpanel alternative |
-| **CX Impact** | Open Source | Node.js/AI Skill | Journey mapping | ✅ | AI-assisted CX mapping |
+| Software | Model | License / Cloud | Primary Focus | Self-Hosted | Starting Price | Free Tier / Trial Limit |
+|---|---|---|---|:---:|---|---|
+| **Oracle CX** | SaaS | Commercial | Cloud CX Suite | ❌ | $65 / user / mo | 30-day free trial ($300 cloud credits) |
+| **SAP CX** | SaaS | Commercial | ERP-Integrated CX | ❌ | $58 / user / mo | 30-day free trial sandbox |
+| **Salesforce C360** | SaaS | Commercial | CRM & AI Agentforce | ❌ | $25 / user / mo | 30-day free trial (no credit card) |
+| **Adobe Experience Cloud** | SaaS | Commercial | Marketing & Real-Time CDP | ❌ | ~$2,083 / mo (~$25k/yr) | 30-day enterprise sandbox pilot |
+| **Qualtrics XM** | SaaS | Commercial | Experience Management | ❌ | $420 / mo ($5,040/yr) | **Free Plan:** 30 questions & 500 responses |
+| **Zendesk Suite** | SaaS | Commercial | Omnichannel Support | ❌ | $19 / agent / mo | 14-day free trial (Suite Professional) |
+| **Pegasystems** | SaaS | Commercial | Process Automation & CX | ❌ | ~$150 / user / mo | 30-day free trial (Community Edition) |
+| **Freshworks Suite** | SaaS | Commercial | Customer Support & Chat | ❌ | $19 / agent / mo | **Free Plan:** 2 agents (6-mo Free Program) |
+| **Sprinklr** | SaaS | Commercial | Unified Social & CXM | ❌ | ~$4,166 / mo (~$50k/yr) | Enterprise sales POC on request |
+| **Zoho CRM Plus** | SaaS | Commercial | CRM + Desk + Surveys | ❌ | $57 / user / mo | 30-day free trial (up to 10 users) |
+| **Twenty** | Open-Source | AGPL-3.0 | Modern CRM | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **PostHog** | Open-Source | MIT (Core) | Product Analytics & CX | ✅ | Free (Self-Hosted) | 1M events/month free cloud tier |
+| **Novu** | Open-Source | MIT | Communication Engine | ✅ | Free (Self-Hosted) | 30k events/month free cloud tier |
+| **Chatwoot** | Open-Source | MIT | Omnichannel Support Desk | ✅ | Free (Self-Hosted) | 2 agents free cloud plan |
+| **Plausible Analytics** | Open-Source | AGPL-3.0 | Privacy Web Analytics | ✅ | Free (Self-Hosted) | 30-day free trial cloud |
+| **Formbricks** | Open-Source | AGPL-3.0 | Surveys & Feedback XM | ✅ | Free (Self-Hosted) | Free self-hosted / 2.5k responses free |
+| **OpenReplay** | Open-Source | El v2 | Session Replay & UX | ✅ | Free (Self-Hosted) | Free self-hosted / 1k sessions/mo free |
+| **Mautic** | Open-Source | GPL-3.0 | Marketing Automation | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **OpenPanel** | Open-Source | AGPL-3.0 | Product Analytics | ✅ | Free (Self-Hosted) | Free self-hosted / 25k events/mo free |
+| **SuiteCRM** | Open-Source | AGPL-3.0 | Enterprise Open CRM | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **FreeScout** | Open-Source | AGPL-3.0 | Shared Inbox & Helpdesk | ✅ | Free (Self-Hosted) | Unlimited agents/mailboxes free |
+| **RudderStack** | Open-Source | SSPL-1.0 | Customer Data Platform | ✅ | Free (Self-Hosted) | Free self-hosted / 1M events/mo free |
+| **erxes** | Open-Source | AGPL-3.0 | Experience OS (XOS) | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **Chaskiq** | Open-Source | LGPL-3.0 | Conversational Marketing | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **Retentioneering** | Open-Source | Open Source | User Journey Behavior | ✅ | Free (Self-Hosted) | Free Jupyter/Python framework |
+| **Tracardi** | Open-Source | MIT + Clause | CDP Engine | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **Znuny** | Open-Source | GPL-3.0 | Helpdesk & ITSM | ✅ | Free (Self-Hosted) | Fully free & open source |
+| **CX Impact** | Open-Source | Open Source | AI Journey Mapping | ✅ | Free (Self-Hosted) | Free AI agent skill |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Unified CX Suite or CX component that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an open-source Unified CX Suite, Customer Data Platform (CDP), product analytics tool, or customer service framework that belongs here, please feel free to contribute:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** across feedback platforms (Formbricks), customer data platforms (Tracardi), support inboxes (Chatwoot, FreeScout), behavioral analytics (Retentioneering, OpenPanel), and journey mapping (CX Impact). No single open-source project replicates the breadth of Salesforce Customer 360 or Adobe Experience Cloud, but combinations can cover most CX needs. Formbricks is currently the most notable open-source CX platform, explicitly targeting the "top 5% of technical CX teams" restricted by Qualtrics and Medallia platform limitations [citation:1].
+1. Fork this repository.
+2. Add your project under the appropriate category or table in alphabetical or star-ranked order.
+3. Include the official project URL, repository badge link, primary technology stack, license, and key CX value proposition.
+4. Submit a Pull Request with a clear description of the project.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This curated collection is made available under the [CC0 1.0 Universal (Public Domain Dedication)](http://creativecommons.org/publicdomain/zero/1.0/). Listed software tools, brand marks, and products remain the intellectual property of their respective creators and owners.
